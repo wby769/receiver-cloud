@@ -1,0 +1,616 @@
+/* 北海页面开始 */
+.navWrap{
+	width:100%;
+	height:94px;
+	background:#fff;
+	padding:15px 10px;
+	margin-bottom:.15rem;
+}
+.navWrap .navlist{
+	width:96px;
+	height:63px;
+	border:1px solid #eee;
+	text-align:center;
+	padding-top:4px;
+}
+.navlist img{
+	width:100px;
+	height:63px;
+}
+.navWrap .navlist i{
+	font-size:36px;
+}
+.navWrap .navlist p{
+	font-size:14px;
+}
+/* 标题 */
+.titleWrap{
+	border-left:5px solid #ecb423;
+	margin-bottom:10px;
+	position:relative;
+}
+.titleWrap h1{
+	font-size:18px;
+	color:#333;
+	line-height:20px;
+	margin-left:8px;
+}
+.titleWrap .more{
+	color:#ecb423;
+	font-size:20px;
+	position:absolute;
+	right:0px;
+	top:-3px;
+}
+/* 车+导推荐 */
+.carWrap{
+	background:#fff;
+	padding:10px;
+}
+.car-content-list{
+	width:170px;
+	position:relative;
+}
+.car-content-list img{
+	width:100%;
+	height:110px;
+}
+.car-content-list p{
+	color:#333;
+	line-height:28px;
+	font-size:14px;
+}
+.car-content-list .tiyan{
+	background:#ff6000;
+	color:#fff; 
+	position:absolute;
+	top:5px;
+	left:5px;
+	border-radius:5px;
+	padding:1px 5px;
+}
+.car-content-list .head-img{
+	position:absolute;
+	bottom:0;
+	right:5px;
+	width:55px;
+	height:55px;
+	border:3px solid #fff;
+	border-radius:50%;
+	overflow:hidden;
+}
+.car-content-list .head-img img{
+	width:110%;
+	height:110%;
+}
+.car-content-list i{
+	vertical-align:middle;
+}
+.car-content-list .price{
+	color:#ff6000;
+	font-size:18px;
+	text-align:right;
+}
+/* bannner */
+.ban-box{
+	width:100%;
+	height:1.94rem;
+	margin:.1rem 0;
+}
+.ban-box img{
+	width:100%;
+	height:1.94rem;
+}
+/* 租赁 */
+.zulin-box{
+	width:100%;
+	background:#fff;
+	padding: 10px;
+	margin-top: .15rem;
+}
+.zuling-list{
+	width:98%;
+	height:2.6rem;
+	margin:0 auto;
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+.zuling-list .zulin-img{
+	width:1.87rem;
+	height:2.12rem;
+	border-radius:.1rem;
+	overflow:hidden;
+	position:absolute;
+	top:.2rem;
+	left:.2rem;
+}
+.zuling-list .zulin-img img{
+	width:100%;
+}
+.zuling-list .zulin-info{
+	width:100%;
+	padding-left:2.27rem;
+	position:relative;
+	padding-top:.2rem;
+}
+.zuling-list .zulin-info p{
+	color:#999;
+}
+.zuling-list .zulin-info h1{
+	font-weight:normal;
+	font-size:.32rem;
+	margin-bottom:1.2rem;
+}
+.zuling-list:last-child{
+	border-bottom:none;
+}
+.dy-head{
+	width:.7rem;
+	height:.7rem;
+	border-radius:50%;
+	float: right;
+	margin-top:-.3rem;
+}
+/* 一日游 */
+.oneWrap{
+	width:100%;
+	position:relative;
+	background:#fff;
+	margin-top: .15rem;
+	padding:10px;
+}
+.one-content-list{
+	width:320px;
+	height:290px;
+	background:#f8f8f8;
+	border-radius:10px;
+}
+.one-title{
+	height:50px;
+	line-height:50px;
+	color:#333;
+	font-size:16px;
+	box-sizing:border-box;
+	padding-left: 5px;
+}
+.dy-head1{
+	width:.7rem;
+	height:.7rem;
+	border-radius:50%;
+	vertical-align:middle;
+}
+.one-img{
+	width:100%;
+	height:188px; 
+}
+.one-img img{
+	width:100%;
+	height:188px;
+}
+.one-btm{
+	font-size: 16px;
+	color:#333; 
+	margin:5px;
+	line-height:22px;
+}
+/* 特色生活 */
+.liveWrap{
+	width:100%;
+	position:relative;
+	background:#fff;
+	margin-top: .15rem;
+	padding:.2rem;
+}
+.live-list{
+	position:relative;
+	margin-bottom:.15rem;
+}
+.live-img{
+	width:100%;
+	height:4rem;
+}
+.live-title{
+	font-size:16px;
+	width:75%;
+	color:#333;
+	margin:.1rem 0;
+}
+.dy-head2{
+	width:1.2rem;
+	height:1.2rem;
+	border-radius:50%;
+	border:3px solid #fff;
+	position:absolute;
+	right:.07rem;
+	top:3.2rem;
+}
+/* 北海页面结束 */
+
+/* 导游页面开始 */
+/* head */
+.guide-info-wrap{
+	width:100%;
+	height:5rem;
+	background: #fff;
+	position:relative;
+	margin-bottom:.3rem;
+}
+.guide-img{
+	width:120%;
+	margin-left: -10%;
+	margin-top:-4%;
+	min-height:3.2rem;
+}
+.guide-img-box{
+	overflow:hidden;
+	max-height:3.2rem;
+}
+.guide-head{
+	position:absolute;
+	border:3px solid #fff;
+	border-radius:50%;
+	width:1.3rem;
+	height:1.3rem;
+	top:2.4rem;
+	left:.4rem;
+	overflow:hidden;
+}
+.guide-head img{
+	width:100%;
+	height:100%;
+}
+.guide-name{
+	height:.96rem;
+	width:96%;
+	margin:0 auto;
+	border-bottom:1px solid #eee;
+	padding-left:1.7rem;
+}
+.guide-name h1{
+	font-size:.32rem;
+	line-height: .5rem;
+}
+.guide-name .car-box{
+	float:right;
+	text-align:center;
+	font-size:.24rem;
+	margin-top:-.62rem;
+	margin-right:.2rem;
+}
+.guide-name .car-box img{
+	width:.94rem;
+	height:.5rem;
+}
+.car-box a{
+	font-size:.28rem;
+	background:#1aac19;
+	color:#fff;
+	border-radius:12px;
+	display:inline-block;
+	padding: 5px 10px;
+}
+.price-box{
+	width:96%;
+	margin:0 auto;
+}
+.price-box>span{
+	display:inline-block;
+	width:1rem;
+	height:.38rem;
+	border:1px solid #f73e3e;
+	border-radius:6px;
+	text-align:center;
+	line-height:.38rem;
+	margin:.15rem .1rem;
+	color:#f73e3e;
+}
+.price-box>b{
+	color:#f73e3e;;
+}
+.price-date{
+	float:right;
+	font-size:.32rem;
+	color:#999;
+	margin-top:.15rem;
+}
+.price-date span{
+	color:#f73e3e;
+}
+/* 车型 */
+.guide-detial{
+	position:relative;
+	background:#fff;
+	height:2rem;
+	padding:.25rem;
+	margin-bottom:.3rem;
+}
+.guide-detial>div{
+	float:left;
+}
+.guide-detial-img{
+	width:2rem;
+	height:1.6rem;
+	margin-right:.25rem;
+}
+.guide-detial-img img{
+	width:100%;
+}
+.guide-detial-content{
+	width:4.7rem;
+	height:1.6rem;
+}
+.guide-detial-content p{
+	line-height: .38rem;
+}
+.guide-detial-title{
+	font-size:.38rem;
+	margin-bottom:.1rem;
+}
+.guide-detial-title i{
+	font-size:.35rem;
+}
+.guide-detial-title span{
+	color:#f73e3e;
+	margin-left:.1rem;
+	font-size:.35rem;
+}
+.guide-detial-t1{
+	font-size: .28rem;
+	color:#999;
+}
+.guide-detial-t2{
+	font-size: .28rem;
+	color:#ccc;
+}
+/* 简介 相册 吆喝 */
+.guidelist{
+	width:100%;
+	background:#fff;
+	margin-bottom:.3rem;
+	padding:.3rem;
+}
+.guidelist h1{
+	font-weight:normal;
+	line-height:.5rem;
+	font-size: .34rem;
+	border-bottom:1px solid #ccc;
+}
+.guidelist span{
+	font-weight:normal;
+	font-size: .28rem;
+	color:#333;
+}
+.guidelist div{
+	font-size: .28rem;
+	color:#666;
+	line-height: .35rem;
+	margin-top:.15rem;
+	overflow:hidden;
+}
+
+.guidelist-img img{
+	width:2.1rem;
+	height:2rem;
+	margin-right:.15rem;
+	margin-top:.15rem;
+	float:left;
+}
+.yaohe-content{
+	border-bottom:1px dashed #ccc;
+	margin-bottom:.3rem;
+}
+.yaohe-content img{
+	width:2.1rem;
+	height:2rem;
+	margin:0 .1rem .15rem 0;
+}
+.yaohe-content p{
+	margin-bottom:.15rem;
+}
+.more-btn{
+	width:100%;
+	text-align: center;
+}
+.more-btn a{
+	width:3.6rem;
+	height:.7rem;
+	border:1px solid #666;
+	color:#666;
+	text-align: center;
+	display:inline-block;
+	line-height:.7rem;
+	font-size:.32rem;
+	border-radius:.1rem;
+}
+/* 底部 */
+.price-btm{
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+.price-btm-content{
+	height:1.1rem;
+	background:#fff;
+	width:100%;
+	max-width:7.5rem;
+	min-width:3.2rem;
+	font-size: .32rem;
+	margin: 0 auto;
+	color:#333;
+	padding:.25rem 0 0 .5rem;
+	line-height: .5rem;
+	border-top:1px solid #eee;
+}
+.price-btm-content span{
+	color:#1aad19;
+}
+.price-btm-content a{
+	width: 2.2rem;
+	height:.6rem;
+	background: #1aad19;
+	color:#fff;
+	text-align: center;
+	line-height:.6rem; 
+	float: right;
+	margin-right:.3rem; 
+	border-radius:.1rem;
+}
+/* 导游页面结束 */
+
+/*订单列表/订单详情开始*/
+.order-list-box{
+	background:#fff;
+	/*height:3.6rem;*/
+	width:100%;
+	padding:.2rem .2rem .05rem .2rem;
+	font-size:0.24rem;
+	color:#999;
+	margin-top:.2rem;
+}
+/*}订单编号*/
+.order-top{
+	border-bottom:1px solid #e5e5e5;
+	font-weight:normal;
+	font-size:.26rem;
+	line-height:.6rem;
+}
+.order-top span:last-child{
+	float:right;
+	color:#09ba07;
+	line-height:.4rem;
+	font-size:.3rem;
+	margin-top:2px;
+}
+/*订单信息*/
+.order-list-info{
+	position:relative;
+	border-bottom:1px solid #e5e5e5;
+	padding:.1rem 0;
+	font-size:.24rem;
+}
+.order-list-info h1{
+	color:#333;
+	font-weight:normal;
+	font-size:.28rem;
+}
+.order-list-info h1 span{
+	color:#09ba07;
+}
+.order-list-info p{
+	color:#999;
+}
+.order-price{
+	position:absolute;
+	right:.05rem;
+	top:.7rem;
+	color:#ff0000;
+	font-size:.36rem;
+}
+.order-price i{
+	color:#999;
+	font-size:.26rem;
+	margin-left:.05rem;
+}
+/*订单按钮*/
+.order-list-btn{
+	overflow:hidden;
+	position: relative;
+}
+.order-list-btn .tel-btn{
+	color:#333;
+	font-size:.28rem;
+	margin-top: .2rem;
+	display: inline-block;
+}
+.order-list-btn i{
+	font-size:.5rem;
+	margin-right:.05rem;
+	color:#09ba07;
+	vertical-align:middle;
+}
+.btn-box{
+	position:absolute;
+	right:0;
+	top:.24rem;
+}
+.btn-box a{
+	width:1.74rem;
+	height:.6rem;
+	margin-right:.2rem;
+	display:inline-block;
+	line-height:.6rem;
+	font-size:.3rem;
+	padding:0;
+	margin-top:0 !important;
+}
+.btn-box a:last-child{
+	margin-right:0;
+}
+
+/*订单详情*/
+.order-detail-info{
+	background:#fff;
+	padding:.25rem;
+	margin-top:.2rem;
+	color:#999;
+}
+.order-detail-top{
+	border-bottom:1px solid #e5e5e5;
+	padding-bottom:.15rem;
+	font-size:.28rem;
+}
+.order-detail-info h1{
+	font-weight:normal;
+	color:#333;
+	font-size:.3rem;
+	line-height:.7rem;
+}
+.order-detail-info h1 span{
+	color:#09ba07;
+}
+.order-detail-info p label{
+	width:1.2rem;
+	text-align-last:justify;
+	display:inline-block;
+}
+/*预约信息*/
+.yuyue-info-box .weui-cell{
+	font-size:.3rem !important;
+	color:#666;
+}
+.shifu-price{
+	color:#333;
+	font-size:.34rem;
+}
+.shifu-price span{
+	color:#ff6000;
+	font-size:.38rem;
+}
+/*支付取消按钮*/
+.order-detail-btn{
+	width:86%;
+	margin:.2rem auto;
+}
+.order-detail-btn a{
+	width: 45%;
+	display:inline-block;
+	margin-right:8%;
+	font-size:.36rem;
+}
+.order-detail-btn a:last-child{
+	margin-right:0;
+}
+
+/*订单列表/订单详情结束*/
+
+
+
+
+
+
+
+
+
+
+
+

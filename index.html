@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>收客云首页</title>
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/cloud-style.css">
+	<script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+	<script src="js/swiper.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_trml4s95sev1jor.css">
+	<script type='text/JavaScript' src='http://api.map.baidu.com/api?type=quick&ak=56563710f7448264e407591367dc1d77&v=1.0'></script>
+</head>
+<body>
+	<div class="divBox">
+		<!-- head -->
+		<div class="headWrap">
+			<!-- 搜索条 -->
+			<div class="searchWrap">
+				<div class="location-box">
+					<span>北海</span>
+					<i class="iconfont icon-location"></i>
+				</div>
+				<div class="search-box">
+					<div class="search-full">
+						<i class="iconfont icon-sousuo"></i>
+						<span>请输入您要搜索线路</span>
+					</div>
+				</div>
+			</div>
+			<!-- banner轮播图 -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="imgs/ck-banner.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="imgs/ck-banner1.jpg">
+					</div>
+					<div class="swiper-slide">
+						<img src="imgs/ck-banner2.jpg">
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<script>
+			    var swiper = new Swiper('.swiper-container', {
+			        pagination: '.swiper-pagination',
+			        paginationClickable: true,
+			        touchRatio : 0.5,
+			        loop:true,
+			        speed:1000,
+			        autoplay: 3000,
+			        autoplayDisableOnInteraction: false
+			    });
+	    	</script>
+	    </div>
+	    <!-- nav -->
+	    <div class="navWrap">
+	    	<ul>
+	    		<li>
+<a href="http://nbbc.66diqiu.com/line/index/search?cat_list_id=0&amp;sort_list_id=0&amp;city_list_id=1602&amp;dcity_list_id=0&amp;day_list_id=0&amp;kw=&amp;start_date=&amp;end_date=&amp;src=wap">
+	    				<img src="imgs/menu1.png" alt="">
+	    				<p style="color:#f68029;">国内游</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="http://nbbc.66diqiu.com/line/index/search?cat_list_id=0&amp;sort_list_id=0&amp;city_list_id=1602&amp;dcity_list_id=0&amp;day_list_id=0&amp;kw=&amp;start_date=&amp;end_date=&amp;src=wap">
+	    				<img src="imgs/menu2.png" alt="">
+	    				<p style="color:#4194da;">周边游</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    		<a href="http://nbbc.66diqiu.com/line/index/search?kw=&amp;cat_list_id=3&amp;sort_list_id=0&amp;city_list_id=1602&amp;dcity_list_id=0&amp;day_list_id=0&amp;start_date=&amp;end_date=&amp;src=wap">
+	    				<img src="imgs/menu3.png" alt="">
+	    				<p style="color:#94ca29;">出境游</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    				<img src="imgs/menu4.png" alt="">
+	    				<p style="color:#f24f50;">旅游攻略</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    				<img src="imgs/menu5.png" alt="">
+	    				<p style="color:#ffcf3f;">景点</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    				<img src="imgs/menu6.png" alt="">
+	    				<p style="color:#d274f0;">酒店</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    				<img src="imgs/menu7.png" alt="">
+	    				<p style="color:#43cbbd;">机票</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="bh-index.html">
+	    				<img src="imgs/menu8.png" alt="">
+	    				<p style="color:#f15e7a;">当地玩乐</p>
+	    			</a>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <!-- 旅游线路推荐 -->
+	    <div class="lineWrap">
+	    	<!-- 标题 -->
+	    	<div class="titleWrap">
+	    		<h1>旅游线路推荐</h1>
+	    	</div>
+	    	<!-- 线路列表内容 -->
+	    	<div class="line-list">
+	    		<ul>
+	    			<li>
+	    				<a href="">
+	    					<div class="line-img">
+	    						<img src="imgs/po1.jpg" alt="">
+	    					</div>
+	    					<div class="line-info">
+	    						<h1 class="odd-ellipsis"><徐州汉文化-云龙湖-淮海战役烈士纪念塔</h1>
+	    						<p>最近团期：1-3</p>
+	    						<span class="org">跟团游</span>
+	    						<span class="gre">热销</span>
+	    						<div class="line-info-btm">
+	    							<span class="price">￥105</span>起
+	    							<div class="skim-all">
+	    								<i class="iconfont icon-liulan"></i>315
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<div class="line-img">
+	    						<img src="imgs/po2.jpg" alt="">
+	    					</div>
+	    					<div class="line-info">
+	    						<h1 class="odd-ellipsis"><双人报价-徐州汉文化景区自驾3日游></h1>
+	    						<p>最近团期：12-31</p>
+	    						<span class="org">跟团游</span>
+	    						<span class="gre">热销</span>
+	    						<div class="line-info-btm">
+	    							<span class="price">￥760</span>起
+	    							<div class="skim-all">
+	    								<i class="iconfont icon-liulan"></i>152
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<div class="line-img">
+	    						<img src="imgs/po3.jpg" alt="">
+	    					</div>
+	    					<div class="line-info">
+	    						<h1 class="odd-ellipsis"><民俗博物馆-云龙湖1日游>纯玩百分百，预定即送伴手礼</h1>
+	    						<p>最近团期：12-21</p>
+	    						<span class="org">跟团游</span>
+	    						<span class="gre">热销</span>
+	    						<div class="line-info-btm">
+	    							<span class="price">￥108</span>起
+	    							<div class="skim-all">
+	    								<i class="iconfont icon-liulan"></i>405
+	    							</div>
+	    						</div>
+	    					</div>
+	    				</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!-- 查看更多 -->
+    		<div class="more-btn">
+    			<a href="">查看更多</a>
+    		</div>
+	    </div>
+	    <!-- 推荐景区 -->
+	    <div class="spotWrap">
+	    	<!-- 标题 -->
+	    	<div class="titleWrap">
+	    		<h1>推荐景区</h1>
+	    	</div>
+	    	<!-- 景区内容 -->
+	    	<div class="spot-info">
+	    		<ul>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/jq_1.jpg" alt="">
+	    					<p>南京总统府</p>
+	    					<span>￥56/人</span>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/jq_2.jpg" alt="">
+	    					<p>乌镇一日游</p>
+	    					<span>￥106/人</span>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/jq_3.jpg" alt="">
+	    					<p>南京紫金山</p>
+	    					<span>￥68/人</span>
+	    				</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!-- 查看更多 -->
+    		<div class="more-btn">
+    			<a href="">查看更多</a>
+    		</div>
+	    </div>
+	    <!-- 住哪里 -->
+	    <div class="liveWrap">
+	    	<!-- 标题 -->
+	    	<div class="titleWrap">
+	    		<h1>住哪里</h1>
+	    		<a href="" class="live-btn">
+	    			<i class="iconfont icon-xiangyougengduo "></i>
+	    		</a>
+	    	</div>
+	    	<!-- 地图 -->
+	    	<div id='allmap' style='width:100%; height:300px;font-size:16px;'></div>
+			 <script type='text/javascript'>		    
+				$(function(){
+					//默认显示第一个地图
+					var tt=$(".swiper-slide-active").find(".place-info").find("h1").html();
+					var pp=$(".swiper-slide-active").find(".place-info").find("h1").attr("title");
+					var arr=pp.split(",");
+					doMap(tt,arr);
+					//手指离开屏幕市触发事件
+			    	$(".place-list").on("touchend",function(){
+				    	tt=$(this).find(".place-info").find("h1").html();
+				    	pp=$(this).find(".place-info").find("h1").attr("title");
+				    	arr=pp.split(",");
+				    	doMap(tt,arr);
+				    })				
+			    })
+				//地图函数
+			    function doMap(tt,arr){
+			    	var map = new BMap.Map('allmap');    // 创建Map实例
+				    map.addControl(new BMap.ZoomControl()); // 添加缩放控件
+				    map.addControl(new BMap.ScaleControl()); // 添加比例尺控件
+				    var point = new BMap.Point(arr[0],arr[1]);//经纬度
+				    var marker = new BMap.Marker(point);  // 创建标注
+				    map.addOverlay(marker);              // 将标注添加到地图中
+				    map.centerAndZoom(point, 15);
+				    var opts = {
+				        width : 100,     // 信息窗口宽度
+				        height: 22,     // 信息窗口高度
+				        title : tt, // 信息窗口标题
+				        enableAutoPan : true //自动平移
+				    }
+				    var infoWindow = new BMap.InfoWindow(tt, opts);  // 创建信息窗口对象
+				    marker.addEventListener('click', function(){
+				        map.openInfoWindow(infoWindow,point); //开启信息窗口
+				    });
+			    }
+			</script>
+	    	<!-- 地点 -->
+	    	<div class="place-box">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide place-list">
+		                <div class="num">1</div>
+		                <div class="place-info">
+		                    <h1 title="118.795398,32.026977">夫子庙-秦淮河</h1>
+		                    <p>
+		                        <span class="ble">24%</span>
+		                        游客选择住这里
+		                    </p>
+		                </div>
+		            </div>
+		            <div class="swiper-slide place-list">
+		                <div class="num">2</div>
+		                <div class="place-info">
+		                    <h1 title="118.79158,32.047745">新街口</h1>
+		                    <p>
+		                        <span class="ble">24%</span>
+		                        游客选择住这里
+		                    </p>
+		                </div>
+		            </div>
+		            <div class="swiper-slide place-list">
+		                <div class="num">3</div>
+		                <div class="place-info">
+		                    <h1 title="118.794439,32.01902">老门东</h1>
+		                    <p>
+		                        <span class="ble">24%</span>
+		                        游客选择住这里
+		                    </p>
+		                </div>
+		            </div>
+		            <div class="swiper-slide place-list">
+		                <div class="num">4</div>
+		                <div class="place-info">
+		                    <h1 title="118.860335,32.063934">中山陵</h1>
+		                    <p>
+		                        <span class="ble">24%</span>
+		                        游客选择住这里
+		                    </p>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="swiper-pagination" style="display: none"></div>
+		    </div>
+		    <script>
+				var swiper = new Swiper('.place-box', {
+				    pagination: '.swiper-pagination',
+				    slidesPerView:'auto',
+				    paginationClickable: true,
+				    spaceBetween: 10,
+				    freeMode: true
+				});
+			</script>
+	    </div>
+	    <!-- 周边城市 -->
+	    <div class="cityWrap">
+	    	<!-- 标题 -->
+	    	<div class="titleWrap">
+	    		<h1>周边城市</h1>
+	    	</div>
+	    	<!-- 城市内容 -->
+	    	<div class="spot-info">
+	    		<ul>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/ms1.jpg" alt="">
+	    					<p>相距<span>345</span>里</p>
+	    					<div>南京</div>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/ms2.jpg" alt="">
+	    					<p>相距<span>370</span>里</p>
+	    					<div>镇江</div>
+	    				</a>
+	    			</li>
+	    			<li>
+	    				<a href="">
+	    					<img src="imgs/ms3.jpg" alt="">
+	    					<p>相距<span>400</span>里</p>
+	    					<div>苏州</div>
+	    				</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+	    	<!-- 查看更多 -->
+    		<div class="more-btn">
+    			<a href="">查看更多</a>
+    		</div>
+	    </div>
+	</div>
+	<!-- 搜索页面 -->
+	<div class="z_header_search none" id="header-search">
+        <div class="search_bar">
+            <form action="http://nbbc.66diqiu.com/line/index/search" class="search-from" name="searchform">
+                <div class="search_cancel">取消</div>
+                <div class="search_main">
+                    <input type="text" name="kw" class="kw" placeholder="请输入您要搜索线路">
+                    <input type="hidden" name="src" value="wap">
+                    <button class="submit_i search_button">
+                    	<i class="iconfont icon-sousuo" style="font-size:32px;"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="search_pop box">
+            <div class="search_hot J_hs-hotword">
+                <div class="title">热门搜索</div>
+                <ul class="keys clearfix">
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=南京&amp;src=wap">
+		                    <div class="item">南京</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=上海&amp;src=wap">
+		                    <div class="item">上海</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=徐州&amp;src=wap">
+		                    <div class="item">徐州</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=北京&amp;src=wap">
+		                    <div class="item">北京</div>
+		                </a>
+		            </li>
+               		 <li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=扬州&amp;src=wap">
+		                    <div class="item">扬州</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=首尔&amp;src=wap">
+		                    <div class="item">首尔</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=杭州&amp;src=wap">
+		                    <div class="item">杭州</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=古镇&amp;src=wap">
+		                    <div class="item">古镇</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=千岛湖&amp;src=wap">
+		                    <div class="item">千岛湖</div>
+		                </a>
+		            </li>
+            		<li>
+		                <a href="http://nbbc.66diqiu.com/line/index/search?kw=巴厘岛&amp;src=wap">
+		                    <div class="item">巴厘岛</div>
+		                </a>
+		            </li>
+                </ul>
+            </div>
+            <div class="search_tuijian">
+                <div class="title">推荐线路</div>
+                <ul class="tj-list">
+                    <li><a href="http://nbbc.66diqiu.com/line/index/search?kw=&amp;cat_list_id=2&amp;sort_list_id=0&amp;city_list_id=0&amp;dcity_list_id=0&amp;day_list_id=0&amp;start_date=&amp;end_date=&amp;src=wap">周边游</a></li>
+                    <li><a href="http://nbbc.66diqiu.com/line/index/search?kw=&amp;cat_list_id=1&amp;sort_list_id=0&amp;city_list_id=0&amp;dcity_list_id=0&amp;day_list_id=0&amp;start_date=&amp;end_date=&amp;src=wap ">国内游</a></li>
+                    <li><a href="http://nbbc.66diqiu.com/line/index/search?kw=&amp;cat_list_id=3&amp;sort_list_id=0&amp;city_list_id=0&amp;dcity_list_id=0&amp;day_list_id=0&amp;start_date=&amp;end_date=&amp;src=wap">出境游</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="foot-box">
+		<ul>
+			<li>
+				<a href="http://nbbc.local.com/?fuid=104399" title="" class="active">
+					<i class="iconfont icon-shouye"></i>
+					<p>首页</p>
+				</a>
+			</li>
+			<li>
+				<a href="http://nbbc.66diqiu.com/line/index/search/list" title="">
+					<i class="iconfont icon-search"></i>
+					<p>搜索</p>
+				</a>
+			</li>
+			<li>
+				<a href="tel:400-835-5166" title="">
+					<i class="iconfont icon-dianhua"></i>
+					<p>电话</p>
+				</a>
+			</li>
+			<li>
+				<a href="http://nbbc.66diqiu.com/mobile/member/center?fuid=104390" title="">
+					<i class="iconfont icon-wo"></i>
+					<p>我的</p>
+				</a>
+			</li>
+		</ul>
+    </div>
+    <script type="text/javascript">
+    	//搜索页面 
+    	$(".search-full").click(function(){
+    		$("#header-search").show();
+    	})
+    	$(".search_cancel").click(function(){
+    		$("#header-search").hide();
+    	})
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

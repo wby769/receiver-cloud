@@ -1,0 +1,483 @@
+/* 首页开始 */
+/* head */
+.headWrap{
+	position:relative;
+}
+/* 搜索条 */
+.searchWrap{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:45px;
+	overflow:hidden;
+	z-index:999;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+}
+/* 定位 */
+.location-box{
+	width:75px;
+	color:#fff;
+	text-align:right;
+	font-size:18px;
+	line-height:45px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.location-box i{
+	font-size:24px;
+	margin-left:-5px;
+}
+/* 搜索框 */
+.search-box{
+	width:100%;
+	padding-left:80px;
+	padding-right:10px;
+	box-sizing: border-box;
+}
+.search-box .search-full{
+	height:32px;
+	margin-top:8px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:rgba(250,250,250,0.7);
+	box-sizing: border-box;
+	padding:0 5px;
+}
+.search-box .search-full i{
+	font-size: 28px;
+    color: #666;
+    vertical-align: middle;
+}
+.search-box .search-full span{
+	color:#666;
+	font-size:14px;
+	position: relative;
+	top:2px;
+}
+/* 轮播图 */
+.swiper-container{
+	width: 100%;
+	height:225px;
+}
+.swiper-container img{
+	width:100%;
+	height:100%;
+}
+/*改变分页器颜色*/
+.swiper-pagination-bullet{
+	background:#fff;
+	opacity:0.8;
+}
+.swiper-pagination-bullet-active{
+	background:#ecb423;
+	opacity:1;
+}
+/* nav */
+.navWrap{
+	width:100%;
+	padding:15px 10px 0;
+	box-sizing:border-box;
+	overflow:hidden;
+	background:#fff;
+	margin-bottom:10px;
+}
+.navWrap ul li{
+	float:left;
+	width:25%;
+	text-align:center;
+	margin-bottom:15px;
+	font-size:14px;
+}
+.navWrap ul li a{
+	color:#333;
+}
+.navWrap ul li img{
+	width:65%;
+	margin-bottom:6px;
+}
+/* 标题 */
+.titleWrap{
+	border-left:5px solid #ecb423;
+	margin-left:10px;
+	margin-bottom:5px;
+}
+.titleWrap h1{
+	font-size:18px;
+	color:#333;
+	line-height:20px;
+	margin-left:8px;
+}
+/* 旅游线路推荐 */
+.lineWrap{
+	background:#fff;
+	width:100%;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+/* 线路列表内容 */
+.line-list{
+	overflow:hidden;
+}
+.line-list ul li{
+	height:102px;
+	border-bottom:1px solid #eee;
+	position:relative;
+	box-sizing:border-box;
+	padding:6px 10px;
+}
+.line-list ul li:last-child{
+	border-bottom:none;
+}
+.line-list ul li .line-img{
+	position:absolute;
+	width:120px;
+	top:6px;
+	left:10px;
+	height:90px;
+}
+.line-list ul li .line-img img{
+	width:100%;
+}
+.line-info{
+	width:100%;
+	height:90px;
+	padding-left:125px;
+	box-sizing:border-box;
+}
+.line-info h1{
+	font-size:16px;
+	color: #444;
+}
+.line-info p{
+	color:#999;
+	font-size:14px;
+	margin-bottom: 6px;
+    margin-top: 5px;
+}
+.line-info .org{
+	border:1px solid #ff9022;
+	border-radius:3px;
+	padding:1px 4px;
+	color: #ff9022;
+}
+.line-info .gre{
+	border:1px solid #1faf10;
+	border-radius:3px;
+	padding:1px 4px; 
+	color:#1faf10;
+}
+.line-info-btm{
+	font-size:2px;
+	color:#999;
+	margin-top:10px;
+}
+.line-info-btm .price{
+	font-size:16px;
+	color:#ff9022;
+}
+.line-info-btm .skim-all{
+	float:right;
+	font-size:14px;
+	margin-top:-3px;
+}
+.line-info-btm .skim-all i{
+	font-size:20px;
+	position: relative;
+	top:2px;
+}
+/* 查看更多 */
+.more-btn{
+	width:100%;
+	height:45px;
+	line-height:47px;
+	text-align:center;
+}
+.more-btn a{
+	width: 30%;
+    border: 1px solid #ecb423;
+    color: #ecb423;
+    line-height: 26px;
+    display: inline-block;
+    border-radius:3px;
+    font-size:14px;
+}
+/* 推荐景区 */
+.spotWrap{
+	background:#fff;
+	width:100%;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.spot-info{
+	overflow:hidden;
+	padding:5px;
+}
+.spot-info ul li{
+	float:left;
+	width:33.3%;
+	text-align:center;
+	position: relative;
+}
+.spot-info ul li a img{
+	width:90%;
+	margin-bottom:5px;
+}
+.spot-info ul li a p{
+	color:#333;
+	font-size:14px;
+	line-height:18px;
+}
+.spot-info ul li a span{
+	color:#ff9022;
+	font-size:14px;
+}
+/* 住哪里 */
+.liveWrap{
+	background:#fff;
+	width:100%;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.liveWrap .live-btn{
+	float:right;
+	margin-top: -18px;
+	margin-right:5px;
+}
+/* 周边城市 */
+.cityWrap{
+	background:#fff;
+	width:100%;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.spot-info ul li div{
+	background:rgba(250,250,250,0.6);
+	position: absolute;
+	text-align: center;
+	top:30%;
+	left:50%;
+	margin-left:-35px;
+	font-size:16px;
+	color:#333;
+	width:70px;
+	line-height:30px;
+}
+/* 地点 */
+.place-box{
+    padding:10px;
+    margin-bottom:5px;
+    overflow:hidden;
+    white-space:nowrap;
+    height:75px;
+    background:#fff;
+}
+.place-box .place-list{
+    width:220px;
+    height:75px;
+    border:1px solid #eee;
+    padding:10px 0 0 10px;
+    box-sizing:border-box;
+    float: left;
+}
+.place-box .place-list div{
+    float:left;
+    text-align:left;
+}
+.place-box .place-list .num{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#248cff;
+    color:#fff;
+    text-align: center;
+    line-height:50px;
+    font-size:24px;
+    margin-right: 5px;
+}
+.place-box .place-list .place-info h1{
+    font-weight:normal;
+    font-size:18px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.place-box .place-list .place-info p{
+    color:#999;
+    font-size:14px;
+    margin:0;
+}
+.place-box .place-list .place-info .ble{
+    color:#248cff;
+}
+/*搜索页面*/
+.z_header_search{
+	position: fixed;
+	z-index:999;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background:#fff;
+}
+.z_header_search .search_bar{
+	position: relative;
+	z-index: 20;
+	padding: 10px 0;
+}
+.z_header_search .search_bar .search_cancel {
+	float: left;
+	padding: 0px 10px 0 15px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #3fdbea;
+}
+.z_header_search .search_bar .search_main {
+	position: relative;
+	float: none;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border-radius: 2px;
+	margin: 0px 47px 0px 53px;
+	background: #e5e5e5;
+}
+.z_header_search .search_bar .search_main input {
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 100%;
+	height: 20px;
+	border: none;
+	padding: 5px 30px 5px 10px;
+	line-height: 30px;
+	font-size: 14px;
+	outline: none;
+	background-color: transparent;
+	color:#666;
+}
+.z_header_search .search_bar .search_main .search_button {
+	display: block;
+	position: absolute;
+	right: -40px;
+	top: 3px;
+	z-index: 1;
+	overflow: hidden;
+	text-align: center;
+	width: 35px;
+	line-height: 24px;
+	font-size: 20px;
+	color:#3fdbea;
+	background:none;
+	border: none;
+	outline:none;
+}
+.search_pop {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	z-index: 50;
+	bottom: 0px;
+	overflow: auto;
+	padding:0 10px;
+}
+.search_pop .title {
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d4d4d4;
+}
+.search_pop .search_hot .keys {
+	position: relative;
+	margin-right: -10px;
+}
+.search_pop .search_hot .keys li {
+	float: left;
+	width: 20%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.search_pop .search_hot .keys .item {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #d4d4d4;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	color: #666;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.search_pop .search_history .lr-list {
+	border-bottom: 1px solid #d4d4d4;
+}
+.search_pop .search_history .lr-list>li,.search_pop .search_tuijian .tj-list>li {
+	position: relative;
+	padding-right: 10px;
+	margin-bottom: 14px;
+	line-height: 20px;
+	height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #666;
+	font-size: 14px;
+}
+.tj-list a{
+	color:#666;
+	display:block;
+}
+.search_pop .search_history .clear_history {
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	color:#3fdbea;
+}
+
+/* 屏幕适配 */
+@media screen and (max-width:360px){
+	.swiper-container{
+		height:195px;
+	}
+}	
+/* 首页结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

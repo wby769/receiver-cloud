@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>车+导列表</title>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_trml4s95sev1jor.css">
+</head>
+<body>
+    <div class="divBox">
+         <!--head-->
+        <!--<div class="head-box">-->
+            <!--<a href="javascript:history.back()" title="">-->
+                <!--<i class="iconfont icon-l"></i>-->
+            <!--</a>-->
+            <!--<span>车+导列表</span>-->
+        <!--</div>-->
+        <div class="sk_content">
+            <a href="guide.html">
+                <div class="sk_tup">
+                    <img src="imgs/cd3.jpg">
+                    <div class="sk_yuanjiao">
+                        <img src="imgs/tx2.jpg">
+                        <div class="sk_xingbie">
+                            <img src="imgs/nv.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="sk_listcont">
+                    <div class="sk_chedao">
+                        <p class="sk_che_name">张梅</p>
+                        <p class="sk_jingyan">中文&nbsp;|&nbsp;2年经验</p>
+                    </div>
+                    <div class="sk_chex">
+                        <img src="imgs/q1.jpg">
+                        <div>经济</div>
+                    </div>
+                </div>
+                <div class="sk_jia">
+                    <div class="sk_biaoqian">
+                        <span>包车</span>
+                        <b>+</b>
+                        <span>导游</span>
+                    </div>
+                    <div class="sk_prise">
+                        <span>￥125</span>/天
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="sk_content">
+            <a href="#">
+                <div class="sk_tup">
+                    <img src="imgs/cd2.jpg">
+                    <div class="sk_yuanjiao">
+                        <img src="imgs/tx1.jpg">
+                        <div class="sk_xingbie">
+                            <img src="imgs/nan.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="sk_listcont">
+                    <div class="sk_chedao">
+                        <p class="sk_che_name">王海</p>
+                        <p class="sk_jingyan">中文&nbsp;|&nbsp;3年经验</p>
+                    </div>
+                    <div class="sk_chex">
+                        <img src="imgs/q200.jpg">
+                        <div>商务</div>
+                    </div>
+                </div>
+                <div class="sk_jia">
+                    <div class="sk_biaoqian">
+                        <span>包车</span>
+                        <b>+</b>
+                        <span>导游</span>
+                    </div>
+                    <div class="sk_prise">
+                        <span>￥256</span>/天
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="sk_content">
+            <a href="#">
+                <div class="sk_tup">
+                    <img src="imgs/cd4.jpg">
+                    <div class="sk_yuanjiao">
+                        <img src="imgs/tx3.jpg">
+                        <div class="sk_xingbie">
+                            <img src="imgs/nan.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="sk_listcont">
+                    <div class="sk_chedao">
+                        <p class="sk_che_name">张东</p>
+                        <p class="sk_jingyan">中文&nbsp;|&nbsp;6年经验</p>
+                    </div>
+                    <div class="sk_chex">
+                        <img src="imgs/q300.jpg">
+                        <div>豪华</div>
+                    </div>
+                </div>
+                <div class="sk_jia">
+                    <div class="sk_biaoqian">
+                        <span>包车</span>
+                        <b>+</b>
+                        <span>导游</span>
+                    </div>
+                    <div class="sk_prise">
+                        <span>￥450</span>/天
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="foot-box">
+        <ul>
+            <li>
+                <a href="http://nbbc.local.com/?fuid=104399" title="" class="active">
+                    <i class="iconfont icon-shouye"></i>
+                    <p>首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="http://nbbc.66diqiu.com/line/index/search/list" title="">
+                    <i class="iconfont icon-search"></i>
+                    <p>搜索</p>
+                </a>
+            </li>
+            <li>
+                <a href="tel:400-835-5166" title="">
+                    <i class="iconfont icon-dianhua"></i>
+                    <p>电话</p>
+                </a>
+            </li>
+            <li>
+                <a href="http://nbbc.66diqiu.com/mobile/member/center?fuid=104390" title="">
+                    <i class="iconfont icon-wo"></i>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+
+        $(function() {
+
+            var url = "/rent/chejdao/get_list";
+            $.get(url,null,function(data){
+//                data = JSON.parse(data);
+                $(data).appendTo('.divBox');
+//                if(data.status == 1) {
+//                    $('#che-info').html(data.msg);
+//                } else {
+//                    $('#che-info').html(data.msg);
+//                }
+            });
+        })
+    </script>
+</body>
+</html>
